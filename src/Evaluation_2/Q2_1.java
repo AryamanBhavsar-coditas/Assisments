@@ -8,6 +8,7 @@ public class Q2_1 {
         LocalDate currentDate = LocalDate.now();
         DayOfWeek dow = currentDate.getDayOfWeek();
 
+
         switch (dow){
             case MONDAY:
                 System.out.println("Its a start of week");

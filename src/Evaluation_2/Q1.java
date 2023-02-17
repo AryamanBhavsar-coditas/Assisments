@@ -57,6 +57,19 @@ class Student{
     public void setMarks(int marks) {
         this.marks = marks;
     }
+
+    @Override
+    public String
+    toString() {
+        return "Student{" +
+                "id=" + id +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", education='" + education + '\'' +
+                ", city='" + city + '\'' +
+                ", marks=" + marks +
+                '}';
+    }
 }
 
 public class Q1 {
@@ -89,6 +102,8 @@ public class Q1 {
         student.setEducation(education);
         student.setCity(city);
         student.setMarks(marks);
+
+        System.out.println(student);
 
 
         int marksObtained = student.getMarks();
