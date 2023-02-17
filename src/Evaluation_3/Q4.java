@@ -65,3 +65,10 @@ public class Q4 {
 
     }
 }
+//Output-
+//        CHOOSE YOUR VEHICLE TYPE
+//        1.Light Motor Vehicle
+//        2.Heavy Motor Vehicle
+//        Enter your choice:
+//        2
+//        HeavyMotorVehicle{CapacityInTons=100, Company='Force', price=80000}

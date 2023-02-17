@@ -16,3 +16,6 @@ public class Q3 {
         arithmetic.square(5);
     }
 }
+//
+//Output-
+//        Square is::5

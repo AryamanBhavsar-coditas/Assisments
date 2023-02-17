@@ -35,3 +35,7 @@ public class Q1 {
 
     }
 }
+//
+//Output-
+//        Area is::6
+//        Perimeter is::16

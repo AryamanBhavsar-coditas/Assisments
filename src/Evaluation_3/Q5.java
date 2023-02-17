@@ -62,3 +62,7 @@ public class Q5 {
         System.out.println(teacher);
     }
 }
+
+//Output-
+//        Student{id=101, Name='Aryaman', address=Address{HouseNo=193, pincode=452012, Area='Viman Nagar', City='Indore', Country='India'}}
+//        Teacher{id=300, Name='Ram', address=Address{HouseNo=123, pincode=122322, Area='Rajendra Nagar', City='Pune', Country='India'}}

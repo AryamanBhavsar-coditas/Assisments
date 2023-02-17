@@ -99,3 +99,8 @@ public class Q2 {
 
     }
 }
+//
+//Output-
+//        PurchaseOrder{id=201, desc='Good order', CustomerName='Aryaman', VendorName='XYZ Enterprize'}
+//        SalesOrder{id=23, desc='First sales', CustomerName='Ram Singh', VendorName='ABC Enterprize'}
+
