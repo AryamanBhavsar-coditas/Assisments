@@ -41,15 +41,10 @@ public class Q1 {
                     break;
             }
 
-            System.out.println("Enter choice:");
-            System.out.println("1.Count token");
-            System.out.println("2.Count Vowel");
-            System.out.println("3.If not Vowel");
         }
 
         else
             System.out.println("Thaank-You");
-        
 
 
     }
