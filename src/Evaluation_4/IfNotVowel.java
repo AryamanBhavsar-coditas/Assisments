@@ -19,6 +19,8 @@ public class IfNotVowel {
             }
             result = result+c;
         }
+
+
         System.out.println(result);
     }
 
