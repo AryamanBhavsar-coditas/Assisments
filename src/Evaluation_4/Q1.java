@@ -11,7 +11,6 @@ public class Q1 {
 
         Scanner sc = new Scanner(System.in);
 
-       // int input = sc.nextInt();
         boolean flag=true;
 
 
@@ -20,7 +19,7 @@ public class Q1 {
             System.out.println("1.Count token");
             System.out.println("2.Count Vowel");
             System.out.println("3.If not Vowel");
-            System.out.println("4 for exit");
+            System.out.println("4.EXIT");
 
             int input = sc.nextInt();
 
@@ -34,6 +33,8 @@ public class Q1 {
                 case 3: ifNotVowel.Calculate();
                         break;
                 case 4: flag=false;
+                        break;
+
                 default:
                     System.out.println("Not valid choice");
                     break;
