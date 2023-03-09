@@ -52,9 +52,11 @@ public class Operations {
 
         for(Customer c:l1 ){
             if(c.mobNo==mobno){
+                System.out.println("----------------------------");
                 System.out.println("Name:"+c.getName());
                 System.out.println("Balance: Rs."+c.getInitialBalance());
                 System.out.println("Validity:"+c.getValidity()+" Month");
+                System.out.println("----------------------------");
                 System.out.println();
             }
         }
@@ -65,12 +67,23 @@ public class Operations {
         long mobNo = sc.nextInt();
         System.out.println("Enter Recharge Amount::");
         int amount = sc.nextInt();
-
-        for(Customer c:l1){
-            if(c.mobNo==mobNo){
-                c.initialBalance = c.initialBalance+amount;
-                c.validity = c.validity+1;
+        if(amount<0 || amount==0){
+            try {
+                throw new RechargeAmountLowException();
+            } catch (RechargeAmountLowException e) {
+                e.getMessage();
             }
+        }
+
+        else {
+
+            for (Customer c : l1) {
+                if (c.mobNo == mobNo) {
+                    c.initialBalance = c.initialBalance + amount;
+                    c.validity = c.validity + 1;
+                }
+            }
+
         }
     }
 
