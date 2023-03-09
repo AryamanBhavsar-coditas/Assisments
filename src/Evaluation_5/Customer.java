@@ -1,10 +1,14 @@
 package Evaluation_5;
 
+import java.time.LocalDate;
+
 public class Customer {
     String name,email,address,simType;
     int aadharNo,initialBalance,validity=1;
     int mobNo;
 
+    LocalDate today = LocalDate.now();
+    LocalDate valid;
 
 
     public Customer(String name, String email, String address, String simType, int aadharNo, int initialBalance,int mobNo) {

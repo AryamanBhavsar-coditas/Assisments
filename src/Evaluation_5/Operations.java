@@ -36,7 +36,12 @@ public class Operations {
 
     public void ViewAllUser(){
         for (Customer c:l1) {
-            System.out.println(c);
+            System.out.println("------------------------------");
+            System.out.println("Name:      |  "+c.name);
+            System.out.println("Number:    |  "+c.mobNo);
+            System.out.println("Balance:   |  "+"Rs."+c.initialBalance);
+            System.out.println("Validity:  |  "+c.validity+" Month");
+            System.out.println("-------------------------------");
         }
     }
 
@@ -87,7 +92,7 @@ public class Operations {
             for (Customer c : l1) {
                 if (c.mobNo == mobNo) {
                     c.initialBalance = c.initialBalance + amount;
-                    c.validity = c.validity + 1;
+                    c.validity = c.validity+1;
                 }
             }
 
