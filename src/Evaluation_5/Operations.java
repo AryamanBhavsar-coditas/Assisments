@@ -24,6 +24,7 @@ public class Operations {
         System.out.println();
         System.out.println("************************");
         System.out.print("Mobile number alloted to customer is::");
+        System.out.println("************************");
 
         Random random = new Random();
         int mobno = random.nextInt(900000000) + 1000000000;

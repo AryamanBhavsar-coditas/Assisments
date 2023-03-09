@@ -63,3 +63,78 @@ public class SIMcompany {
         }
     }
 }
+
+//Output-
+//        ^^^^^^^^^^^^^^^^^^
+//        AIRTEL
+//        ^^^^^^^^^^^^^^^^^^
+//        0.EXIT
+//        1.PREPAID USER
+//        2.NEW CONNECTION
+//        3.VIEW ALL USER
+//        2
+//        Enter Name::
+//        Aryaman
+//        Enter Email::
+//        aryaman1701@gmail.com
+//Enter Address::
+//        Indore
+//        Enter Simtype (prepaid/postpaid)::
+//        PRepaid
+//        Enter Aadhar Number::
+//        23456784
+//        Enter Initial Balance::
+//        1000
+//
+//        ************************
+//        Mobile number alloted to customer is::1749395849
+//        0.EXIT
+//        1.PREPAID USER
+//        2.NEW CONNECTION
+//        3.VIEW ALL USER
+//        1
+//        0.EXIT
+//        1.CHECK BALANCE AND VALIDITY
+//        2.RECHARGE
+//        1
+//        Number is::1749395849
+//        Enter your Number::
+//        1749395849
+//        Name:Aryaman
+//        Balance: Rs.1000
+//        Validity:1 Month
+//
+//        0.EXIT
+//        1.CHECK BALANCE AND VALIDITY
+//        2.RECHARGE
+//        2
+//        Enter Mobile Number::
+//        1749395849
+//        Enter Recharge Amount::
+//        300
+//        0.EXIT
+//        1.CHECK BALANCE AND VALIDITY
+//        2.RECHARGE
+//        1
+//        Number is::1749395849
+//        Enter your Number::
+//        1749395849
+//        Name:Aryaman
+//        Balance: Rs.1300
+//        Validity:2 Month
+//
+//        0.EXIT
+//        1.CHECK BALANCE AND VALIDITY
+//        2.RECHARGE
+//        0
+//        0.EXIT
+//        1.PREPAID USER
+//        2.NEW CONNECTION
+//        3.VIEW ALL USER
+//        3
+//        Customer{name='Aryaman', email='aryaman1701@gmail.com', address='Indore', simType='PRepaid', aadharNo=23456784, initialBalance=1300, validity=2, mobNo=1749395849}
+//        0.EXIT
+//        1.PREPAID USER
+//        2.NEW CONNECTION
+//        3.VIEW ALL USER
+//        0
