@@ -24,7 +24,6 @@ public class Operations {
         System.out.println();
         System.out.println("************************");
         System.out.print("Mobile number alloted to customer is::");
-        System.out.println("************************");
 
         Random random = new Random();
         int mobno = random.nextInt(900000000) + 1000000000;
@@ -48,10 +47,18 @@ public class Operations {
 
         System.out.println("Enter your Number::");
         int mobno = sc.nextInt();
-//        int mob = Integer.parseInt(mobno);
 
         for(Customer c:l1 ){
-            if(c.mobNo==mobno){
+
+            if(c.mobNo!=mobno){
+                try {
+                    throw new UserNotExistException();
+                } catch (UserNotExistException e) {
+                    e.getMessage();
+                }
+            }
+
+            else{
                 System.out.println("----------------------------");
                 System.out.println("Name:"+c.getName());
                 System.out.println("Balance: Rs."+c.getInitialBalance());
