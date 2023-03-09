@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a153416-9765-4b41-bd53-af09840b466d" name="Changes" comment="Commit 1" />
+    <list default="true" id="9a153416-9765-4b41-bd53-af09840b466d" name="Changes" comment="Commit 1">
+      <change afterPath="$PROJECT_DIR$/src/Evaluation_5/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Evaluation_5/Operations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Evaluation_5/SIMcompany.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +42,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Q1">
+  <component name="RunManager" selected="Application.SIMcompany">
     <configuration name="CountVowel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Evaluation_4.CountVowel" />
       <module name="Assisments" />
@@ -53,19 +58,6 @@
     </configuration>
     <configuration name="IfNotVowel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Evaluation_4.IfNotVowel" />
-      <module name="Assisments" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Evaluation_4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Q1 (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Evaluation_4.Q1" />
       <module name="Assisments" />
       <extension name="coverage">
         <pattern>
@@ -103,13 +95,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SIMcompany" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Evaluation_5.SIMcompany" />
+      <module name="Assisments" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Evaluation_5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SIMcompany" />
         <item itemvalue="Application.Q1" />
         <item itemvalue="Application.IfNotVowel" />
         <item itemvalue="Application.CountVowel" />
         <item itemvalue="Application.Q1 (5)" />
-        <item itemvalue="Application.Q1 (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677238917760</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Commit 1">
+      <created>1677239045395</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1677239045395</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

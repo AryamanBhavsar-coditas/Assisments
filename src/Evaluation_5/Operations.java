@@ -1,0 +1,78 @@
+package Evaluation_5;
+
+import java.util.ArrayList;
+import java.util.Random;
+import java.util.Scanner;
+
+public class Operations {
+    Scanner sc = new Scanner(System.in);
+    ArrayList<Customer> l1 = new ArrayList<Customer>();
+
+    public void newConnection(){
+        System.out.println("Enter Name::");
+        String name = sc.next();
+        System.out.println("Enter Email::");
+        String email = sc.next();
+        System.out.println("Enter Address::");
+        String address = sc.next();
+        System.out.println("Enter Simtype (prepaid/postpaid)::");
+        String simType = sc.next();
+        System.out.println("Enter Aadhar Number::");
+        int aadharNo = sc.nextInt();
+        System.out.println("Enter Initial Balance::");
+        int initialBal = sc.nextInt();
+        System.out.println();
+        System.out.println("************************");
+        System.out.print("Mobile number alloted to customer is::");
+
+        Random random = new Random();
+        int mobno = random.nextInt(900000000) + 1000000000;
+
+        System.out.println(mobno);
+
+        Customer customer = new Customer(name,email,address,simType,aadharNo,initialBal,mobno);
+        l1.add(customer);
+    }
+
+    public void ViewAllUser(){
+        for (Customer c:l1) {
+            System.out.println(c);
+        }
+    }
+
+    public void CheckBalance(){
+        for(Customer c : l1){
+            System.out.println("Number is::"+c.getMobNo());
+        }
+
+        System.out.println("Enter your Number::");
+        int mobno = sc.nextInt();
+//        int mob = Integer.parseInt(mobno);
+
+        for(Customer c:l1 ){
+            if(c.mobNo==mobno){
+                System.out.println("Name:"+c.getName());
+                System.out.println("Balance: Rs."+c.getInitialBalance());
+                System.out.println("Validity:"+c.getValidity()+" Month");
+                System.out.println();
+            }
+        }
+    }
+
+    public void Recharge(){
+        System.out.println("Enter Mobile Number::");
+        long mobNo = sc.nextInt();
+        System.out.println("Enter Recharge Amount::");
+        int amount = sc.nextInt();
+
+        for(Customer c:l1){
+            if(c.mobNo==mobNo){
+                c.initialBalance = c.initialBalance+amount;
+                c.validity = c.validity+1;
+            }
+        }
+    }
+
+
+
+}
