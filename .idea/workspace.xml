@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a153416-9765-4b41-bd53-af09840b466d" name="Changes" comment="Commit 1">
-      <change afterPath="$PROJECT_DIR$/src/Evaluation_6/Connectivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Evaluation_6/MainMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Evaluation_6/SQLops.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Evaluation_6/StudentOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Evaluation_6/TeacherOperations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assisments.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Assisments.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Evaluation_5/Operations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Evaluation_5/Operations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Evaluation_6/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Evaluation_6/MainMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Evaluation_6/SQLops.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Evaluation_6/SQLops.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,19 +46,6 @@
   }
 }]]></component>
   <component name="RunManager" selected="Application.MainMenu">
-    <configuration name="IfNotVowel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Evaluation_4.IfNotVowel" />
-      <module name="Assisments" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Evaluation_4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MainMenu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Evaluation_6.MainMenu" />
       <module name="Assisments" />
@@ -103,6 +85,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SQLops" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Evaluation_6.SQLops" />
+      <module name="Assisments" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Evaluation_6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StudentOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Evaluation_6.StudentOperations" />
       <module name="Assisments" />
@@ -119,10 +114,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.MainMenu" />
+        <item itemvalue="Application.SQLops" />
         <item itemvalue="Application.StudentOperations" />
         <item itemvalue="Application.Q1" />
         <item itemvalue="Application.SIMcompany" />
-        <item itemvalue="Application.IfNotVowel" />
       </list>
     </recent_temporary>
   </component>
@@ -247,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678357332177</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Commit 1">
+      <created>1679043590352</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1679043590352</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

@@ -110,6 +110,7 @@ public class MainMenu {
                     break;
 
                 case 7:
+                    sqLops.Q3();
                     break;
 
                 default:
