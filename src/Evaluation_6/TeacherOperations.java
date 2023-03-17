@@ -36,7 +36,7 @@ public class TeacherOperations {
         if(rs.next()){
             System.out.println("Enter Salary:");
             int salary = Integer.parseInt(bf.readLine());
-            ps = con.prepareStatement("update teacher set salary=? where id=?");
+            ps = con.prepareStatement("update teacher1 set salary=? where id=?");
             ps.setInt(1,salary);
             ps.setInt(2,rollNo);
             ps.executeUpdate();
