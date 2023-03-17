@@ -1,12 +1,11 @@
 package Evaluation_5;
 
-import java.util.ArrayList;
-import java.util.Random;
-import java.util.Scanner;
+import java.util.*;
 
 public class Operations {
     Scanner sc = new Scanner(System.in);
     ArrayList<Customer> l1 = new ArrayList<Customer>();
+
 
     public void newConnection(){
         System.out.println("Enter Name::");
@@ -35,6 +34,7 @@ public class Operations {
     }
 
     public void ViewAllUser(){
+        Collections.sort(l1,new SortByName());
         for (Customer c:l1) {
             System.out.println("------------------------------");
             System.out.println("Name:      |  "+c.name);
@@ -43,6 +43,7 @@ public class Operations {
             System.out.println("Validity:  |  "+c.validity+" Month");
             System.out.println("-------------------------------");
         }
+
     }
 
     public void CheckBalance(){
@@ -98,7 +99,12 @@ public class Operations {
 
         }
     }
+}
 
+class SortByName implements Comparator<Customer> {
 
-
+    @Override
+    public int compare(Customer o1, Customer o2) {
+        return o1.name.compareTo(o2.name);
+    }
 }
