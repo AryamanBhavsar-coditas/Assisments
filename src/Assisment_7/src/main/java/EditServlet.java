@@ -23,11 +23,16 @@ public class EditServlet extends HttpServlet {
         resp.setContentType("text/html");
 
         String id = req.getParameter("id1");
+        String para = req.getParameter("para");
+        String value = req.getParameter("val");
+
+        System.out.println(para);
 
         try {
-            ps = con.prepareStatement("update assisment7 set city='pune' where id=?");
-            ps.setString(1, id);
-            ps.execute();
+
+            ps = con.prepareStatement("update assisment7 set "+para+" = '"+value+"' where id = '"+id+"'");
+            ps.executeUpdate();
+
 
             out.println("<h1>Updated Sucessfully!");
             out.println("<h1><a href='WelcomeAdmin'>Back</a></h1>");
