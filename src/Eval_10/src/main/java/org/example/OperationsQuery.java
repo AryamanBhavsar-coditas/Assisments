@@ -87,4 +87,28 @@ public class OperationsQuery {
         transaction.commit();
         session.close();
     }
+
+    public static void Query11(){
+        Session session = sessionFactory.openSession();
+        Transaction tx = session.beginTransaction();
+
+        LocalDate date = LocalDate.of(2021, 1, 1);
+
+        Date sqlDate = java.sql.Date.valueOf(date);
+
+        Query query = session.createQuery("FROM Book WHERE date <= :date");
+        query.setParameter("date", sqlDate);
+
+        List<Book> bookList = query.getResultList();
+
+        if (bookList.isEmpty()) {
+            System.out.println("No books found");
+        } else {
+            for (Book book : bookList) {
+
+                System.out.println("Author Name: " + book.getAuthor().getName());
+            }
+        }
+        session.close();
+    }
 }
